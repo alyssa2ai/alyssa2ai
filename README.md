@@ -1,27 +1,36 @@
-# Hi there, I'm Alyssa! 👋 
+# Hi, I'm Alyssa! 👋
 
-### 🤖 AI/ML Engineer & IoT Developer | Information Science @ SIT
-I build end-to-end AI solutions, from training custom LLMs (NanoGPT) to deploying autonomous robotics (CropScout AIoT). I'm passionate about social impact, animal activism, and precision agriculture.
-
----
-
-### 🚀 Technical Toolkit
-![My Skills](https://skillicons.dev/icons?i=python,tensorflow,pytorch,fastapi,js,react,nodejs,mongodb,arduino,raspberrypi,git,linux)
+### 🤖 AI/ML & IoT Developer | Information Science @ SIT
+I build end-to-end AI solutions that bridge the gap between hardware and software. I specialize in computer vision for agriculture, assistive health tech, and LLM architecture.
 
 ---
 
-### 🏆 Featured Projects
-* **[CropScout AIoT](LINK_TO_REPO):** An autonomous farming rover using CNNs for real-time disease detection with a multilingual Streamlit dashboard.
-* **[NanoGPT from Scratch](LINK_TO_REPO):** A custom transformer model built to understand the core math behind modern LLMs.
-* **[PDCompanion](LINK_TO_REPO):** A hybrid AI + IoT assistive system for Parkinson’s patients involving fall detection and tremor monitoring.
+### 🚀 Featured Work
+
+#### 🌾 [CropScout AIoT](https://github.com/alyssa2ai/CropScoutAIoT)
+An autonomous farming rover using **ESP32-CAM** and a **custom CNN** to detect 38 leaf diseases in real-time. Features a multi-language dashboard (English/Hindi/Kannada).
+
+#### 🧠 [NanoGPT from Scratch](LINK_SOON)
+A foundational implementation of a GPT model focusing on custom tokenization and self-attention mechanisms—built to understand the "why" behind LLMs.
+
+#### ⌚ [PDCompanion](LINK_SOON)
+A hybrid IoT assistive system for Parkinson’s patients, utilizing sensors for fall detection and tremor monitoring with a real-time caregiver dashboard.
 
 ---
 
-### 📊 GitHub Stats
-![Alyssa's GitHub stats](https://github-readme-stats.vercel.app/api?username=alyssa2ai&show_icons=true&theme=transparent)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alyssa2ai&layout=compact&theme=transparent)
+### 🛠️ Technical Toolkit
+- **Languages:** Python, JavaScript (MERN), C++, PHP
+- **AI/ML:** PyTorch, TensorFlow, OpenCV, LangChain (RAG Agents)
+- **IoT/Hardware:** ESP32, Arduino, Raspberry Pi, MQTT
+- **Tools:** Git, Linux, Firebase, Supabase
 
 ---
 
-### 📫 Connect with me:
-[LinkedIn](https://www.linkedin.com/in/alyssa-l-191297318) | [Email](mailto:alyssal282006@gmail.com)
+### 📊 Impact at a Glance
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=alyssa2ai&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alyssa2ai&layout=compact&theme=radical)
+
+---
+
+### 📫 Let's Connect
+[LinkedIn](https://www.linkedin.com/in/alyssa-l-191297318) | [Portfolio] | [Email](mailto:alyssal282006@gmail.com)
