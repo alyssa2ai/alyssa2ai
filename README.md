@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Alyssa L.
 
-📄 **[Download my CV / Resume](https://raw.githubusercontent.com/alyssa2ai/alyssa2ai/main/Alyssa_L_CV.pdf)**
+📄 **[Download my CV / Resume](https://raw.githubusercontent.com/alyssa2ai/alyssa2ai/main/Alyssa_CV.pdf)**
 
 ### 🔬 Researcher in Agentic AI & LLM Behavior | Information Science @ SIT, Tumakuru
 
