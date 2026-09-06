@@ -1,5 +1,7 @@
 # 👋 Hi, I'm Alyssa L.
 
+📄 **[Download my CV / Resume](https://raw.githubusercontent.com/alyssa2ai/alyssa2ai/main/Alyssa_L_CV.pdf)**
+
 ### 🔬 Researcher in Agentic AI & LLM Behavior | Information Science @ SIT, Tumakuru
 
 I build, break, and analyze autonomous AI systems. My research focuses on **failure-mode analysis**, **tool-use (MCP/Function Calling)**, and the **unexpected dynamics of fine-tuning**. I am actively seeking research internships (MITACS, MPI, etc.) and mentorship in trustworthy AI and agentic workflows.
