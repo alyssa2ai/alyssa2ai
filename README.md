@@ -19,10 +19,11 @@ My current research focuses on **agentic AI reliability, LLM evaluation, failure
 *A controlled case study of fine-tuning regression, trace-level diagnosis, and targeted recovery.*
 
 * **Finding:** QLoRA fine-tuning on 35 trajectories caused performance to regress from **95.7% → 78.3%** on a 23-task multi-tool benchmark.
-* **Diagnosis:** Trace-level analysis identified recurring failure modes across **parser errors, tool omissions, budget failures, semantic failures, and baseline behavior**.
-* **Recovery:** A targeted failure-driven intervention restored benchmark performance to **100%**, while the study explicitly examined the resulting train/evaluation coverage issues.
+* **Diagnosis:** Trace-level analysis of the regressed tasks showed **skipped tool calls, step-budget exhaustion, and answer-content failures**.
+* **Ablation (E4):** Holding the fine-tuned adapter fixed and changing the tool-call parser (and, as run, the evaluation client) left the score at **18/23**, but **4 task outcomes flipped**. The aggregate score hid per-task changes.
+* **Recovery:** A failure-informed intervention, 11 added trajectories and retraining, reached **23/23** on the same benchmark. Because the additions were written after seeing the failures, this is **not** evidence of generalization.
 * **Systems:** Integrated **MCP-based tool execution** and structured traces for auditable agent evaluation.
-* **Status:** Published preprint on Zenodo; currently extending the study with additional baselines and a larger evaluation set.
+* **Status:** Preprint on Zenodo (Sept 2026, not peer reviewed; predates the E4 ablation). An updated manuscript is in the repository.
 
 ---
 
@@ -48,7 +49,7 @@ Exploring the combination of **GROMACS molecular-dynamics simulations, HPC/GPU w
 
 **Failure-driven agent evaluation and QLoRA specialization.**
 
-A minimal agent runtime for studying multi-tool behavior through controlled fine-tuning, execution traces, MCP tool use, and held-out evaluation.
+A minimal agent runtime for studying multi-tool behavior through QLoRA fine-tuning, execution traces, MCP tool use, and a fixed, machine-scored 23-task benchmark.
 
 ### 🧠 [Waggle-MCP](https://github.com/alyssa2ai/Waggle-mcp)
 
